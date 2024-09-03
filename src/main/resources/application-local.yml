@@ -1,9 +1,9 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: 'jdbc:mysql://localhost:3306/coffee'
+    url: jdbc:mysql://localhost:3306/coffee
     username: root
-    password: mypass
+    password: mysqlpass
+    driver-class-name: com.mysql.cj.jdbc.Driver
   sql:
     init:
       mode: always
